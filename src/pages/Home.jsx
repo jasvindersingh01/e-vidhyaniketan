@@ -1,5 +1,5 @@
 import About from "../components/sections/About";
-import Courses from "../components/sections/CoursesSection";
+import Courses from "../components/sections/Courses";
 import Hero from "../components/sections/Hero";
 import Stats from "../components/sections/Stats";
 import WhyChoose from "../components/sections/WhyChoose";
