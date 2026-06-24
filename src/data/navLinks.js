@@ -55,11 +55,6 @@ export const navLinks = [
   },
 
   {
-    title: "Features",
-    path: "/features"
-  },
-
-  {
     title: "Results",
     path: "/results"
   },

@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Lenis from "lenis";
 import Home from "./pages/Home";
 import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
 
 export default function App() {
 
@@ -22,8 +23,9 @@ export default function App() {
 
   return (
     <>
-    <Header />
+      <Header />
       <Home />
+      <Footer />
     </>
   );
 }
