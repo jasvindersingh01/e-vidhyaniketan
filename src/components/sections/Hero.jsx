@@ -6,9 +6,9 @@ import { ChevronLeft, ChevronRight, ArrowRight, GraduationCap } from "lucide-rea
 
 import { motion } from "framer-motion";
 
-import slide1 from "../../assets/hero/hero1.jpg";
-import slide2 from "../../assets/hero/hero2.jpg";
-import slide3 from "../../assets/hero/hero3.jpg";
+import slide1 from "../../assets/hero/slider1.jpg";
+import slide2 from "../../assets/hero/slider2.jpg";
+import slide3 from "../../assets/hero/slider3.jpg";
 
 
 const slides = [
