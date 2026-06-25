@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { navLinks } from "../../data/navLinks";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
 
@@ -17,17 +18,17 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-20">
 
                     {/* Logo */}
-                   <Link to="/" className="flex flex-col">
+                    <Link to="/" className="flex flex-col">
 
-    <h1 className="text-3xl font-bold text-primary">
-        E-Vidyaniketan
-    </h1>
+                        <h1 className="text-3xl font-bold text-primary">
+                            E-Vidyaniketan
+                        </h1>
 
-    <span className="text-[10px] font-medium tracking-[3px] uppercase text-accent">
-        Intelligence • Character • Excellence
-    </span>
+                        <span className="text-[10px] font-medium tracking-[3px] uppercase text-accent">
+                            Intelligence • Character • Excellence
+                        </span>
 
-</Link>
+                    </Link>
 
 
                     {/* Desktop Menu */}
@@ -68,15 +69,28 @@ const Navbar = () => {
                                             {
                                                 item.submenu.map((sub) => (
 
-                                                    <Link
-                                                        key={sub.title}
-                                                        to={sub.path}
-                                                        className="block px-4 py-2 rounded-lg hover:bg-surface transition"
-                                                    >
+                                                    sub.path.includes("#") ? (
 
-                                                        {sub.title}
+                                                        <HashLink
+                                                            key={sub.title}
+                                                            smooth
+                                                            to={sub.path}
+                                                            className="block px-4 py-2 rounded-lg hover:bg-surface transition"
+                                                        >
+                                                            {sub.title}
+                                                        </HashLink>
 
-                                                    </Link>
+                                                    ) : (
+
+                                                        <Link
+                                                            key={sub.title}
+                                                            to={sub.path}
+                                                            className="block px-4 py-2 rounded-lg hover:bg-surface transition"
+                                                        >
+                                                            {sub.title}
+                                                        </Link>
+
+                                                    )
 
                                                 ))
                                             }
@@ -228,27 +242,32 @@ const Navbar = () => {
                                             >
 
                                                 {
-
                                                     item.submenu.map((sub) => (
 
-                                                        <Link
+                                                        sub.path.includes("#") ? (
 
-                                                            key={sub.title}
+                                                            <HashLink
+                                                                key={sub.title}
+                                                                smooth
+                                                                to={sub.path}
+                                                                className="block px-4 py-2 rounded-lg hover:bg-surface transition"
+                                                            >
+                                                                {sub.title}
+                                                            </HashLink>
 
-                                                            to={sub.path}
+                                                        ) : (
 
-                                                            className="block px-10 py-3 text-sm"
+                                                            <Link
+                                                                key={sub.title}
+                                                                to={sub.path}
+                                                                className="block px-4 py-2 rounded-lg hover:bg-surface transition"
+                                                            >
+                                                                {sub.title}
+                                                            </Link>
 
-                                                            onClick={() => setMobileOpen(false)}
-
-                                                        >
-
-                                                            {sub.title}
-
-                                                        </Link>
+                                                        )
 
                                                     ))
-
                                                 }
 
                                             </div>

@@ -1,6 +1,7 @@
 import { ArrowRight, Check } from "lucide-react";
 import { motion } from "framer-motion";
 import aboutImg from "../../assets/about.jpg";
+import { Link } from "react-router-dom";
 
 const points = [
     "Founded in 2002 by Vaibhav Pillai & Shiva Pillai in Kota",
@@ -171,6 +172,7 @@ bg-secondary/10 px-5 py-2"
                             ))}
 
                         </div>
+                       <Link to="/about">
                         <button
 
                             className="group mt-10 inline-flex items-center gap-2
@@ -193,6 +195,7 @@ group-hover:translate-x-1"
                             />
 
                         </button>
+                       </Link>
 
 
                     </motion.div>
