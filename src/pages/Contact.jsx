@@ -87,7 +87,18 @@ const ContactSection = () => {
                             <div className="grid gap-6 md:grid-cols-2">
 
 
-                                <div className="group rounded-[30px] border border-border bg-white p-8 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-xl">
+                                <a
+
+                                    href="https://maps.google.com/?q=C-554,Behind Jawahar Nagar Police Station,Indra Vihar,Talwandi,Kota,Rajasthan,324005"
+
+                                    target="_blank"
+
+                                    rel="noopener noreferrer"
+
+                                    className="group block rounded-[30px] border border-border bg-white p-8 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-xl"
+
+                                >
+
 
                                     <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-accent/10 transition-all duration-300 group-hover:bg-accent">
 
@@ -102,6 +113,7 @@ const ContactSection = () => {
                                     </div>
 
 
+
                                     <h3 className="mt-6 text-2xl font-semibold text-primary">
 
                                         Visit Us
@@ -109,7 +121,8 @@ const ContactSection = () => {
                                     </h3>
 
 
-                                    <p className="mt-4 leading-8 text-text-secondary">
+
+                                    <p className="mt-4 leading-8 text-text-secondary hover:text-secondary">
 
                                         C-554,
 
@@ -121,7 +134,16 @@ const ContactSection = () => {
 
                                     </p>
 
-                                </div>
+
+
+                                    <span className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-secondary">
+
+                                        Open In Google Maps
+
+                                    </span>
+
+
+                                </a>
 
 
 
