@@ -21,3 +21,37 @@
 body {
   font-family: var(--font-outfit);
 }
+
+@keyframes ripple {
+
+    0% {
+
+        transform: scale(.9);
+
+        opacity: .7;
+
+    }
+
+    70% {
+
+        transform: scale(1.7);
+
+        opacity: 0;
+
+    }
+
+    100% {
+
+        transform: scale(1.7);
+
+        opacity: 0;
+
+    }
+
+}
+
+.animate-ripple{
+
+    animation:ripple 2.8s infinite;
+
+}

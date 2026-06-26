@@ -22,7 +22,7 @@ export default function Footer() {
                         </h2>
 
                         <p className="text-accent font-medium mt-1">
-                            Senior Secondary School
+                            Coaching Institute in Kota
                         </p>
 
                         <p className="mt-5 text-slate-400 leading-relaxed">

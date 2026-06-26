@@ -2,7 +2,6 @@ import SEO from "../components/common/SEO";
 import PageBanner from "../components/common/PageBanner";
 
 import AboutHero from "../components/about/AboutHero";
-// import Foundation from "../components/about/Foundation";
 import Objectives from "../components/about/Objectives";
 import GeneralValues from "../components/about/GeneralValues";
 import DirectorMessage from "../components/about/DirectorMessage";
