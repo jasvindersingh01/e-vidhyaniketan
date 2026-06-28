@@ -321,10 +321,7 @@ const ContactSection = () => {
 
                         <div className="group relative overflow-hidden rounded-[35px] bg-primary p-10 text-white shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_25px_55px_rgba(245,158,11,0.25)]">
 
-<div className="absolute left-0 top-0 h-full w-1 origin-top scale-y-0 bg-accent transition-all duration-500 group-hover:scale-y-100" />
-
-<div className="absolute right-10 top-10 h-1 w-14 rounded-full bg-accent transition-all duration-500 group-hover:w-28" />
-
+                        
                             <span className="inline-flex rounded-full bg-white/10 px-5 py-2 text-sm">
 
                                 Why Choose Us
