@@ -3,12 +3,15 @@ import {
   FlaskConical,
   Clock3,
   Check,
+  ArrowRight,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const courses = [
   {
     id: "class-9-10",
+    path: "/courses/ix-x",
     icon: BookOpen,
     title: "Class IX – X",
     timing: "4:00 PM – 9:00 PM",
@@ -17,6 +20,7 @@ const courses = [
       "Science",
       "Social Science",
       "English",
+      "Hindi",
     ],
     highlights: [
       "CBSE Pattern",
@@ -27,6 +31,7 @@ const courses = [
   },
   {
     id: "class-11-12",
+    path: "/courses/xi-xii",
     icon: FlaskConical,
     title: "Class XI – XII",
     timing: "5:00 PM – 8:00 PM",
@@ -74,14 +79,17 @@ const Courses = () => {
             const Icon = course.icon;
 
             return (
-              <motion.div
-                key={course.id}
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.2 }}
-                transition={{ duration: 0.5, delay: index * 0.15 }}
-                className="group rounded-[28px] border border-border bg-surface p-8 transition-all duration-500 hover:-translate-y-2 hover:border-accent/40 hover:shadow-[0_20px_45px_rgba(245,158,11,0.22)]"
-              >
+             <motion.div
+    initial={{ opacity: 0, y: 40 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, amount: 0.2 }}
+    transition={{ duration: 0.5, delay: index * 0.15 }}
+>
+
+    <Link
+        to={course.path}
+        className="group block rounded-[28px] border border-border bg-surface p-8 transition-all duration-500 hover:-translate-y-2 hover:border-accent/40 hover:shadow-[0_20px_45px_rgba(245,158,11,0.22)]"
+    >
                 {/* Icon + Timing */}
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-secondary/10 transition-all duration-500 group-hover:bg-accent">
@@ -136,7 +144,9 @@ const Courses = () => {
                     ))}
                   </div>
                 </div>
-              </motion.div>
+                 </Link>
+
+</motion.div>
             );
           })}
         </div>

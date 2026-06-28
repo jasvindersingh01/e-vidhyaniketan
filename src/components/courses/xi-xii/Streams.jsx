@@ -62,7 +62,7 @@ const Streams = () => {
 
     return (
 
-        <section className="py-18 bg-white">
+        <section id="streams" className="py-18 bg-white">
 
             <div className="max-w-7xl mx-auto px-5">
 
@@ -177,7 +177,7 @@ const Streams = () => {
 
                                                     key={sub}
 
-                                                   className="rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-medium text-white transition duration-300 group-hover:bg-accent group-hover:text-primary"
+                                                    className="rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-medium text-white transition duration-300 group-hover:bg-accent group-hover:text-primary"
 
                                                 >
 

@@ -6,6 +6,7 @@ import Hero from "../../components/courses/ix-x/Hero";
 import Features from "../../components/courses/ix-x/Features";
 import LearningExperience from "../../components/courses/ix-x/LearningExperience";
 import AdmissionFAQ from "../../components/admissions/AdmissionFAQ";
+import Subjects from "../../components/courses/ix-x/Subjects";
 
 const IX_X = () => {
 
@@ -40,6 +41,8 @@ const IX_X = () => {
 
 
             <Hero />
+
+            <Subjects />
 
 
             <Features />
