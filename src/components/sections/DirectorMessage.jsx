@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import director from "../../assets/director.jpg";
+import { Link } from "react-router-dom";
 
 const DirectorMessage = () => {
 
@@ -70,6 +71,7 @@ const DirectorMessage = () => {
 
                         </div>
 
+                       <Link to="/about#director-message">
                         <button className="group mt-7 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-white transition-all duration-300 hover:bg-secondary">
 
                             Read More
@@ -80,6 +82,7 @@ const DirectorMessage = () => {
                             />
 
                         </button>
+                       </Link>
 
                     </motion.div>
 

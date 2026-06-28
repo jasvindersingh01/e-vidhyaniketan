@@ -54,7 +54,7 @@ const KotaCity = () => {
                         <img
                             src="/kota.jpg"
                             alt=""
-                            className="mx-auto max-w-lg"
+                            className="mx-auto"
                         />
 
                     </motion.div>

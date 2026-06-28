@@ -47,7 +47,7 @@ const Methodology = () => {
 
                             alt=""
 
-                            className="mx-auto max-w-lg"
+                            className="mx-auto"
 
                         />
 

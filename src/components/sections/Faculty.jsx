@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 // import shiva from "../../assets/shiva.jpg";
 // import nitesh from "../../assets/nitesh.jpg";
 // import neeraj from "../../assets/neeraj.jpg";
@@ -84,10 +85,12 @@ const Faculty = () => {
                                 {item.desc}
                             </p>
 
+                          <Link to="/about#faculty">
                             <button className="group mx-auto mt-6 flex items-center gap-2 font-medium text-secondary">
                                 Read Profile
                                 <ArrowRight size={16} className="transition group-hover:translate-x-1" />
                             </button>
+                          </Link>
 
                         </motion.div>
 

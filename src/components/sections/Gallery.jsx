@@ -2,6 +2,7 @@ import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const images = [
     "/gallery/1.jpg",
@@ -92,16 +93,18 @@ const Gallery = () => {
 
                 <div className="mt-10 text-center">
 
-                    <button className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-white transition hover:bg-secondary">
+                    <Link to="/gallery">
+                        <button className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-white transition hover:bg-secondary">
 
-                        View Full Gallery
+                            View Full Gallery
 
-                        <ArrowRight
-                            size={18}
-                            className="transition group-hover:translate-x-1"
-                        />
+                            <ArrowRight
+                                size={18}
+                                className="transition group-hover:translate-x-1"
+                            />
 
-                    </button>
+                        </button>
+                    </Link>
 
                 </div>
 

@@ -152,7 +152,7 @@ const Hero = () => {
 
 
                                             <Link
-                                                to="/courses"
+                                                to="/courses/xi-xii"
                                                 className="group inline-flex items-center gap-2 rounded-full bg-accent px-7 py-3 font-medium text-primary shadow-lg shadow-accent/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-accent/30 active:translate-y-0"
                                             >
                                                 Explore Courses
