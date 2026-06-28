@@ -79,7 +79,8 @@ export default function App() {
             <Header />
 
 
-            <Routes>
+      <main className="overflow-x-hidden">
+              <Routes>
 
                 <Route path="/" element={<Home />} />
 
@@ -98,6 +99,7 @@ export default function App() {
                 <Route path="/gallery" element={<Gallery />} />
 
             </Routes>
+      </main>
 
 
             <FloatingButtons />
