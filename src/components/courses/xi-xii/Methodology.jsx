@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const points = [
 
-    "Sunday Tests & Regular Assessments",
+    "Weekly Tests & Regular Assignments",
 
     "Printed Report Cards",
 

@@ -11,7 +11,7 @@ const highlights = [
 
     "Daily attendance monitoring and parent updates.",
 
-    "Monthly assessments and printed report cards.",
+    "Weekly Tests & Regular Assignments.",
 
     "Individual doubt solving sessions.",
 
@@ -19,7 +19,7 @@ const highlights = [
 
     "Regular Parent–Teacher Meetings.",
 
-    "Sunday Tests to assess conceptual understanding.",
+    "Monthly progress reports and printed report cards.",
 
     "Discipline, morality and human values are emphasized."
 
@@ -95,28 +95,25 @@ const Highlights = () => {
 
                                 transition={{ delay: index * .05 }}
 
-                                className="flex gap-4 rounded-[28px] border border-border bg-white p-6 shadow-sm"
+                              className="group flex gap-4 rounded-[28px] border border-border bg-white p-6 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-accent/40 hover:shadow-[0_15px_40px_rgba(245,158,11,0.18)]"
 
                             >
 
 
-                                <div className="mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent/10">
+                                <div className="mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent/10 transition-all duration-500 group-hover:bg-accent">
 
 
-                                    <Check
-
-                                        size={16}
-
-                                        className="text-accent"
-
-                                    />
+                                 <Check
+    size={16}
+    className="text-accent transition-all duration-500 group-hover:scale-110 group-hover:text-primary"
+/>
 
 
                                 </div>
 
 
 
-                                <p className="leading-7 text-text-secondary">
+                                <p className="leading-7 text-text-secondary transition-colors duration-500 group-hover:text-primary">
 
                                     {item}
 

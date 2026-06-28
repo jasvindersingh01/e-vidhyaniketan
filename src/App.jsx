@@ -14,6 +14,8 @@ import ContactSection from "./pages/Contact";
 import IX_X from "./pages/courses/IX_X";
 import XI_XII from "./pages/courses/XI_XII";
 import Gallery from "./pages/Gallery";
+import ScrollToTop from "./components/common/ScrollToTop";
+import Results from "./pages/Results";
 
 export default function App() {
 
@@ -87,6 +89,8 @@ export default function App() {
 
                 <Route path="/courses/xi-xii" element={<XI_XII />} />
 
+                <Route path="/results" element={<Results />} />
+
                 <Route path="/admissions" element={<Admissions />} />
 
                 <Route path="/contact" element={<ContactSection />} />
@@ -99,6 +103,7 @@ export default function App() {
             <FloatingButtons />
 
             <Footer />
+            <ScrollToTop />
 
         </>
 

@@ -60,7 +60,7 @@ const Discipline = () => {
 
 
 
-                    <div className="mt-12 rounded-[32px] border border-border bg-surface p-8 lg:p-10">
+                    <div className="group mt-12 rounded-[32px] border border-border bg-surface p-8 shadow-sm transition-all duration-500 hover:-translate-y-1 hover:border-accent/40 hover:shadow-[0_20px_50px_rgba(245,158,11,0.18)] lg:p-10">
 
                         <div className="space-y-6">
 

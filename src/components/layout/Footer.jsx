@@ -171,7 +171,7 @@ export default function Footer() {
                                     </span>
 
                                     <p className="group-hover:text-yellow-400 transition-colors duration-300">
-                                        Mon - Sat : 8:00 AM – 4:00 PM
+                                        Mon - Sat : 3:00 AM – 10:00 PM
                                     </p>
                                 </div>
                             </div>
@@ -183,7 +183,7 @@ export default function Footer() {
                 <div className="mt-14 border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
 
                     <p className="text-sm text-slate-500">
-                        © 2026 E-Vidyaniketan Senior Secondary School. All Rights Reserved.
+                        © 2026 E-Vidyaniketan Coaching Institute. All Rights Reserved.
                     </p>
 
                     <p className="text-sm text-slate-500">

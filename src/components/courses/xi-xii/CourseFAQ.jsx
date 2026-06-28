@@ -8,7 +8,7 @@ const faqs = [
 
         question: "Which streams are available for Classes XI & XII?",
 
-        answer: "E-Vidyaniketan offers Science (PCM), Science (PCB) and Commerce streams for students of Classes XI and XII."
+        answer: "E-Vidyaniketan offers Science (PCM), Science (PCB), Commerce and Arts streams for students of Classes XI & XII."
 
     },
 
@@ -40,7 +40,7 @@ const faqs = [
 
         question: "How is student performance evaluated?",
 
-        answer: "Students undergo regular assessments, Sunday Tests, monthly evaluations and receive printed report cards."
+        answer: "Students are evaluated through Weekly Tests, Regular Assignments, monthly assessments and printed report cards to ensure continuous academic progress."
 
     },
 

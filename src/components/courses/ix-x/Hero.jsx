@@ -126,7 +126,7 @@ const Hero = () => {
 
                                 <h3 className="mt-3 text-xl font-bold text-primary">
 
-                                    5–8 PM
+                                    4-9 PM
 
                                 </h3>
 

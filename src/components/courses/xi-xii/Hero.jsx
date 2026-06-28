@@ -1,4 +1,11 @@
-import { Atom, BriefcaseBusiness, Clock3, Microscope, Users } from "lucide-react";
+import {
+    Atom,
+    Microscope,
+    BriefcaseBusiness,
+    Landmark,
+    Clock3,
+    Users
+} from "lucide-react";
 import { motion } from "framer-motion";
 
 const streams = [
@@ -16,6 +23,11 @@ const streams = [
     {
         icon: BriefcaseBusiness,
         title: "Commerce"
+    },
+
+    {
+        icon: Landmark,
+        title: "Arts"
     }
 
 ];
@@ -100,7 +112,7 @@ const Hero = () => {
 
                         <p className="mt-6 leading-8 text-text-secondary">
 
-                            E-Vidyaniketan provides a disciplined and supportive environment for students pursuing Science and Commerce streams. With conceptual learning, regular assessments and individual guidance, students are empowered to achieve academic excellence with confidence.
+                            E-Vidyaniketan provides a disciplined and supportive environment for students pursuing Science, Commerce and Arts streams. Through conceptual learning, weekly tests, regular assignments and individual guidance, students are empowered to achieve academic excellence with confidence.
 
                         </p>
 

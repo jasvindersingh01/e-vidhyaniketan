@@ -1,4 +1,9 @@
-import { Atom, Microscope, BriefcaseBusiness } from "lucide-react";
+import {
+    Atom,
+    Microscope,
+    BriefcaseBusiness,
+    Landmark
+} from "lucide-react";
 import { motion } from "framer-motion";
 
 const streams = [
@@ -6,19 +11,48 @@ const streams = [
     {
         icon: Atom,
         title: "Science (PCM)",
-        subjects: ["Physics", "Chemistry", "Mathematics"]
+        subjects: [
+            "Physics",
+            "Chemistry",
+            "Mathematics"
+        ]
     },
 
     {
         icon: Microscope,
         title: "Science (PCB)",
-        subjects: ["Physics", "Chemistry", "Biology"]
+        subjects: [
+            "Physics",
+            "Chemistry",
+            "Biology"
+        ]
     },
 
     {
         icon: BriefcaseBusiness,
         title: "Commerce",
-        subjects: ["Accountancy", "Business Studies", "Economics"]
+        subjects: [
+            "Accountancy",
+            "Business Studies",
+            "Economics",
+            "English",
+            "Physical Education",
+            "Applied Mathematics"
+        ]
+    },
+
+    {
+        icon: Landmark,
+        title: "Arts",
+        subjects: [
+            "Economics",
+            "Applied Mathematics",
+            "English",
+            "Physical Education",
+            "History",
+            "Geography",
+            "Political Science"
+        ]
     }
 
 ];
@@ -64,7 +98,7 @@ const Streams = () => {
 
                     <p className="mt-5 leading-8 text-text-secondary">
 
-                        E-Vidyaniketan offers Science and Commerce streams with conceptual learning, disciplined study habits and continuous guidance.
+                        E-Vidyaniketan offers Science, Commerce and Arts streams with conceptual learning, weekly tests, regular assignments and continuous academic guidance.
 
                     </p>
 
@@ -75,7 +109,7 @@ const Streams = () => {
 
 
 
-                <div className="mt-16 grid gap-6 lg:grid-cols-3">
+                <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
 
 
                     {
@@ -143,7 +177,7 @@ const Streams = () => {
 
                                                     key={sub}
 
-                                                    className="rounded-full bg-white/5 px-4 py-2 text-white/80"
+                                                   className="rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-medium text-white transition duration-300 group-hover:bg-accent group-hover:text-primary"
 
                                                 >
 

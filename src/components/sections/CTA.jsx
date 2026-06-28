@@ -53,38 +53,56 @@ export default function CTA() {
                         <div className="space-y-4">
 
                             <div className="flex items-center gap-4 bg-white/10 backdrop-blur-md rounded-2xl p-5">
-                                <Phone className="text-white" />
+                                <Phone className="text-white shrink-0" />
+
                                 <div>
                                     <p className="text-blue-100 text-sm">
                                         Phone Number
                                     </p>
-                                    <p className="text-white font-semibold">
+
+                                    <a
+                                        href="tel:+919352603736"
+                                        className="text-white font-semibold transition hover:text-accent"
+                                    >
                                         +91 93526 03736
-                                    </p>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="flex items-center gap-4 bg-white/10 backdrop-blur-md rounded-2xl p-5">
-                                <Mail className="text-white" />
+                                <Mail className="text-white shrink-0" />
+
                                 <div>
                                     <p className="text-blue-100 text-sm">
                                         Email Address
                                     </p>
-                                    <p className="text-white font-semibold">
+
+                                    <a
+                                        href="mailto:evidyaniketan@gmail.com"
+                                        className="text-white font-semibold transition hover:text-accent"
+                                    >
                                         evidyaniketan@gmail.com
-                                    </p>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="flex items-center gap-4 bg-white/10 backdrop-blur-md rounded-2xl p-5">
-                                <MapPin className="text-white" />
+                                <MapPin className="text-white shrink-0" />
+
                                 <div>
                                     <p className="text-blue-100 text-sm">
                                         School Address
                                     </p>
-                                    <p className="text-white font-semibold">
-                                       C-554, Behind Jawahar Nagar Police Station, Indra Vihar, Talwandi, Kota
-                                    </p>
+
+                                    <a
+                                        href="https://maps.google.com/?q=C-554,+Behind+Jawahar+Nagar+Police+Station,+Indra+Vihar,+Talwandi,+Kota,+Rajasthan+324005"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-white font-semibold transition hover:text-accent"
+                                    >
+                                        C-554, Behind Jawahar Nagar Police Station, Indra Vihar,
+                                        Talwandi, Kota
+                                    </a>
                                 </div>
                             </div>
 

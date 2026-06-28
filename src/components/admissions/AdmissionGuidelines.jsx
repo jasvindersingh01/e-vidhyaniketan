@@ -86,7 +86,7 @@ const AdmissionGuidelines = () => {
                 <div className="mt-16 grid gap-8 lg:grid-cols-2">
 
 
-                    <div className="rounded-[30px] border border-border bg-white p-8 shadow-sm">
+                    <div className="group relative overflow-hidden rounded-[30px] border border-border bg-white p-8 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-accent/40 hover:shadow-[0_20px_45px_rgba(245,158,11,0.20)]">
 
                         <h3 className="mb-8 text-2xl font-semibold text-primary">
 
@@ -139,7 +139,7 @@ const AdmissionGuidelines = () => {
 
 
 
-                    <div className="rounded-[30px] border border-border bg-white p-8 shadow-sm">
+                    <div className="group relative overflow-hidden rounded-[30px] border border-border bg-white p-8 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-accent/40 hover:shadow-[0_20px_45px_rgba(245,158,11,0.20)]">
 
                         <h3 className="mb-8 text-2xl font-semibold text-primary">
 

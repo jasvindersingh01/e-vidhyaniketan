@@ -9,7 +9,7 @@ const academicSupport = [
 
     "Extra classes available in morning and evening sessions.",
 
-    "Sunday Tests conducted on specific syllabi.",
+    "Weekly Tests & Regular Assignments.",
 
     "Printed Mark Sheets distributed and signed by guardians."
 
@@ -128,7 +128,7 @@ const LearningExperience = () => {
 
 
 
-                        <div className="rounded-[30px] border border-border bg-white p-7 shadow-sm">
+                        <div className="group rounded-[30px] border border-border bg-white p-7 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-accent/40 hover:shadow-[0_20px_45px_rgba(245,158,11,0.20)]">
 
 
                             <h3 className="text-2xl font-semibold text-primary">
@@ -185,7 +185,7 @@ const LearningExperience = () => {
 
 
 
-                        <div className="rounded-[30px] border border-border bg-white p-7 shadow-sm">
+                        <div className="group rounded-[30px] border border-border bg-white p-7 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-accent/40 hover:shadow-[0_20px_45px_rgba(245,158,11,0.20)]">
 
 
                             <h3 className="text-2xl font-semibold text-primary">

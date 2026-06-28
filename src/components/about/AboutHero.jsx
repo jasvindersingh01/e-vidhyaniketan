@@ -47,17 +47,17 @@ const AboutHero = () => {
                             </div>
 
 
-                          <h2 className="mt-5 text-4xl font-bold leading-tight text-primary lg:text-5xl">
+                            <h2 className="mt-5 text-4xl font-bold leading-tight text-primary lg:text-5xl">
 
-    More Than An Institute,
+                                More Than An Institute,
 
-    <span className="text-secondary">
+                                <span className="text-secondary">
 
-        {" "}A Place To Grow
+                                    {" "}A Place To Grow
 
-    </span>
+                                </span>
 
-</h2>
+                            </h2>
 
                             <div className="mt-7 flex gap-4">
 
